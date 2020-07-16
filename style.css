@@ -41,18 +41,30 @@ body {
     margin-top: 45px;
 }
 
+#download {
+    display: flex;
+    justify-content: center;
+    
+    
+}
 #content {
     max-width: 20vw;
     min-width: 320px;
     max-height: 30vh;
     object-fit: cover;
-
     
 }
 
 #logoimage {
     align-self: center;
     max-width: 150%;
-    margin-left: 1vw;
+    margin-left: 2vw;
 }
 
+@media (max-width: 500px) {
+    #content {
+        width: 80vw;
+        height: auto;
+    }
+    
+}
