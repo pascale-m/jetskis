@@ -34,14 +34,14 @@ body {
 }
 
 #filetransfer {
-    max-width: 125px;
+    max-width: 200px;
 }
 
 #downloading {
     margin-top: 45px;
 }
 
-#logo {
+#content {
     max-width: 20vw;
     min-width: 320px;
     max-height: 30vh;
